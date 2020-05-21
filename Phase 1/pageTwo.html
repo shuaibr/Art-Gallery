@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Assignment 1 - Page 2</title>
+    </head>
+
+
+    <body class= "body">
+      <header>
+        <ul class="nav-top">
+          <li class="navtop"> Checkout</li>
+          <li class="navtop"> Shopping Cart</li>
+          <li class="navtop"> Wish List</li>
+          <li class="navtop"> My Account</li>
+        </ul>
+
+        <h1>Art Store</h1>
+
+        <ul class="nav-bottom">
+          <li class="navbot"> Home</li>
+          <li class="navbot"> About Us</li>
+          <li class="navbot"> Art Work</li>
+          <li class="navbot"> Artists</li>
+        </ul>
+
+      </header>
+
+    <div class="block">
+        <h3>Customer Registration</h3>
+
+        <form>
+            <table>
+                <tr>
+                  <td><h2>1. User Info</h2></td>
+                </tr>
+                <tr>
+                    <th><label for="fname">First Name</label> <br>
+                    <input class="iform" id="f30" type="text" name="firstname"></th>
+                    <th><label for="lname">Last Name</label> <br>
+                    <input class="iform" id="f30"type="text" name="lastname"></th>
+                </tr>
+                <tr>
+                    <th colspan="2"><label for="email">Email</label> <br>
+                        <input class="iform" id="f75"type="text" name="email" placeholder=" format for email is xxx@yyy.zzz"> </th>
+                </tr>
+
+                <tr>
+                    <th><label for="pass">Password</label> <br>
+                        <input class="iform" type="password" name="password" placeholder=" at least 8 characters"></th>
+                    <th><label for="passrepeat">Password Repeat </label> <br>
+                        <input class="iform" type="password" name=pass_repeat placeholder=" at least 8 characters"></th>
+                </tr>
+                <tr>
+                  <td><h2>2. Location</h2></td>
+                </tr>
+                <tr>
+                    <th colspan="2"><label for="add">Address</label> <br>
+                      <input class="iform" type="text" name="Address" ></th>
+                </tr>
+
+                <tr>
+                    <th><label for="City">City</label> <br>
+                    <input class="iform" type="text" name="city" size=30%></th>
+                    <th><label for="State">State</label> <br>
+                    <input class="iform-state" type="text" name="state" > </th>
+
+                    <th><label for="Zip">Zip</label><br>
+                    <input class="iform-zip" type="text" name="zip" > </th>
+                </tr>
+                <tr>
+                    <th><label for="Phone">Phone</label> <br>
+                    <input class="iform" type="text" name="Phone" placeholder=" NNN-NNN-NNNN" size=30%></th>
+                    <th><label for="Country">Country</label> <br>
+                      <select class="iform-sel">
+                        <option value="canada">Canada</option>
+                        <option value="us">United States</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="ireland">Ireland</option>
+                      </select></th>
+                </tr>
+                <tr>
+                  <td id="radio"><label for="Continent">Continent</label><br></td>
+                </tr>
+                <tr>
+                  <td>
+                    <input class="iform" type="radio" name="continent" value="na"> North America<br>
+                    <input class="iform" type="radio" name="continent" value="eu"> Europe<br>
+                    <input class="iform" type="radio" name="continent" value="sa"> South America
+                  </td>
+                </tr>
+
+                <tr>
+                  <td><h2>3. Personal Details</h2></td>
+                </tr>
+                  <th><label for="Birthday">Birthday</label> <br>
+                  <input class="iform" type="text" name="Birthday" size=30%></th>
+                  <th>
+                <tr>
+
+                <tr>
+                  <th colspan="2"><label for="art">Interest In Art</label><br>
+                  <div>
+                    <label id="small" for="min">Minimal</label>
+                    <input type="range" min="1" max="100" value="50" class="slider">
+                    <label id="small" for="luv">Love It!</label>
+                  </div></th>
+
+                  <tr>
+                    <td><h2>4. All Done</h2></td>
+                  </tr>
+                  <tr>
+                    <th><input  type="checkbox" name="terms" value="agreement"> I agree to the <a href="http://www.mylearningspace.com">Terms of the Site </a></th>
+                  </tr>
+                  <tr>
+                    <td><input class = "button" type="button" value="✓ Sign me Up!" /></td>
+                  </tr>
+
+
+
+            </table>
+        </form>
+    </div>
+
+
+</html>

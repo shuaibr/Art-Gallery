@@ -1,0 +1,169 @@
+.body{
+    background-image: url("images/stucco/stucco.png");
+    /*width: 50%;*/
+    margin: auto;
+    background-color: white;
+}
+
+.block {
+    width: 900px;
+    margin: 15px 500px 0px;
+    background-color: white;
+    font-family: helvetica;
+    font-size: 12px;
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+
+}
+
+th {
+    padding: 5px;
+    text-align: left;
+}
+
+
+h3{
+  font-size: 26px;
+  padding: 1px;
+  margin: 2px;
+}
+
+#radio{
+  font-weight: bold;
+}
+
+#small{
+  font-weight: normal;
+}
+
+.iform{
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: auto;
+    display: inline;
+    border-collapse: separate;
+    height: 20px;
+    font-weight: normal;
+}
+
+.iform-sel{
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: auto;
+    display: inline;
+    border-collapse: separate;
+    height: 25px;
+    width: 120px;
+    font-weight: normal;
+    background-color: #f9f9f9;
+}
+
+.iform-zip{
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: auto;
+    display: inline;
+    border-collapse: separate;
+    height: 20px;
+    width: 130px;
+    font-weight: normal;
+    background-color: #f9f9f9;
+}
+
+#f30{
+  width:300px;
+}
+
+#f75{
+  width:600px;
+}
+.iform-state{
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: auto;
+    display: inline;
+    border-collapse: separate;
+    height: 20px;
+    width: 90px;
+    font-weight: normal;
+    background-color: #f9f9f9;
+}
+
+
+.button {
+  height: 30px;
+  width: 120px;
+  color: #222222;
+  background-color: #87CEFA;
+  font-size: 10px;
+}
+.slider{
+  width:300px;
+}
+
+/*.iform2{
+    border-radius: 4px;
+    border: 1px solid black;
+    table-layout: fixed;
+}*/
+
+.nav-top{
+  list-style-type: none;
+  width: 900px;
+  margin:auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.navtop:hover {
+  background-color: #111;
+}
+
+h1{
+  font-size: 60px;
+  font-family: helvetica;
+  font-weight: bold;
+  margin: auto;
+  width: 900px;
+}
+
+
+.navtop {
+  float: right;
+  display: block;
+  color: #999999;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}
+
+.navbot:hover {
+  background-color: #cccccc;
+}
+
+.nav-bottom{
+  list-style-type: none;
+  width: 900px;
+  margin:auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  font-weight: bold;
+  font: arial;
+}
+
+.navbot {
+  float:left;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 12px;
+}
